@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pastelPinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0F5"/>
+      <stop offset="40%" stop-color="#FFD6E5"/>
+      <stop offset="100%" stop-color="#FF9EBE"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#FF8FB8" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="128" fill="url(#pastelPinkGrad)"/>
+
+  <!-- Inner Soft Card -->
+  <circle cx="256" cy="256" r="180" fill="#FFFFFF" opacity="0.9" filter="url(#softShadow)"/>
+
+  <!-- Flower / Budget Sparkle Mascot -->
+  <g transform="translate(256, 256)">
+    <!-- Petals -->
+    <circle cx="0" cy="-75" r="45" fill="#FFB3CD" opacity="0.9"/>
+    <circle cx="71" cy="-23" r="45" fill="#FFB3CD" opacity="0.9"/>
+    <circle cx="44" cy="61" r="45" fill="#FFB3CD" opacity="0.9"/>
+    <circle cx="-44" cy="61" r="45" fill="#FFB3CD" opacity="0.9"/>
+    <circle cx="-71" cy="-23" r="45" fill="#FFB3CD" opacity="0.9"/>
+
+    <!-- Center Coin / Flower Core -->
+    <circle cx="0" cy="0" r="55" fill="#FFE5A3" filter="url(#softShadow)"/>
+    
+    <!-- Currency / Cute Face Icon -->
+    <text x="0" y="18" font-family="'Prompt', sans-serif" font-size="52" font-weight="900" fill="#D97706" text-anchor="middle">฿</text>
+  </g>
+
+  <!-- Sparkles -->
+  <path d="M 120 120 Q 135 135 120 150 Q 105 135 120 120" fill="#FF69B4" opacity="0.8"/>
+  <path d="M 390 130 Q 405 145 390 160 Q 375 145 390 130" fill="#FF69B4" opacity="0.8"/>
+  <path d="M 370 380 Q 385 395 370 410 Q 355 395 370 380" fill="#FFB3CD" opacity="0.8"/>
+</svg>

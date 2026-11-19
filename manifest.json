@@ -1,0 +1,18 @@
+{
+  "name": "น้องมุก แบ่งเงินรายสัปดาห์",
+  "short_name": "แบ่งเงินสัปดาห์",
+  "description": "แอปพลิเคชันวางแผนและแบ่งเงินเดือนรายสัปดาห์ 🌸",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF8FB",
+  "theme_color": "#FFF8FB",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/app-icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
